@@ -1,0 +1,37 @@
+.details-bg {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 20px;
+  color: white;
+}
+.row-wrap {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.skill {
+  width: 460px;
+  margin-bottom: 20px;
+}
+.skill-img {
+  height: 60px;
+  margin-right: 10px;
+}
+.life-at-company {
+  width: 1000px;
+}
+.similar {
+  width: 50vw;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .md-row {
+    display: flex;
+  }
+  .life-at-company {
+    margin-left: 30px;
+  }
+  .similar {
+    margin-right: 20px;
+  }
+}
